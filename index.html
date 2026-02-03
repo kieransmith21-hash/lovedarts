@@ -225,6 +225,49 @@
             height: 20px;
         }
 
+        /* Error Message */
+        .error-message {
+            background: rgba(139, 0, 0, 0.15);
+            border: 1px solid rgba(232, 155, 155, 0.4);
+            color: #e89b9b;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            display: none;
+            line-height: 1.5;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        /* Loading State */
+        .btn-primary:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        .btn-primary.loading {
+            position: relative;
+        }
+
+        .btn-primary.loading::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            margin-left: 8px;
+            border: 2px solid rgba(245, 245, 245, 0.3);
+            border-top-color: #f5f5f5;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
         /* Responsive Design */
         @media (max-width: 480px) {
             h1 {
@@ -276,9 +319,11 @@
     <div class="container">
         <!-- Login Section -->
         <section class="login-section">
+            <div id="login-error" class="error-message"></div>
+
             <div>
-                <label for="login-username">Username</label>
-                <input type="text" id="login-username" placeholder="Enter your username" autocomplete="username">
+                <label for="login-email">Email</label>
+                <input type="email" id="login-email" placeholder="Enter your email" autocomplete="email">
             </div>
 
             <div>
@@ -286,7 +331,7 @@
                 <input type="password" id="login-password" placeholder="Enter your password" autocomplete="current-password">
             </div>
 
-            <button class="btn-primary" onclick="handleLogin()">Login</button>
+            <button id="login-button" class="btn-primary" onclick="handleLogin()">Login</button>
             
             <a href="#" class="forgot-password">Forgotten password?</a>
         </section>
@@ -340,35 +385,30 @@
     </div>
 
     <script>
-        function handleLogin() {
-            const username = document.getElementById('login-username').value;
-            const password = document.getElementById('login-password').value;
-            
-            if (!username || !password) {
-                alert('Please enter both username and password');
-                return;
-            }
-            
-            // Add your login logic here
-            console.log('Login attempt:', username);
-        }
-
+        /**
+         * Handle Google signup (OAuth provider)
+         * Placeholder for future OAuth implementation
+         */
         function handleGoogleSignup() {
-            // Add Google OAuth logic here
-            console.log('Google signup initiated');
+            console.log('Google signup initiated - OAuth integration coming soon');
+            alert('Google OAuth integration coming soon');
         }
 
+        /**
+         * Handle Apple signup (OAuth provider)
+         * Placeholder for future OAuth implementation
+         */
         function handleAppleSignup() {
-            // Add Apple OAuth logic here
-            console.log('Apple signup initiated');
+            console.log('Apple signup initiated - OAuth integration coming soon');
+            alert('Apple OAuth integration coming soon');
         }
     </script>
 
-    <!-- Load Supabase library -->
+    <!-- Load Supabase library (required for supabase.ts module) -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
-    <!-- Load your code -->
-    <script src="supabase.js"></script>
-    <script src="signup.js"></script>
+    <!-- Load page handlers as ES modules -->
+    <script type="module" src="src/pages/login.ts"></script>
+    <script type="module" src="src/pages/signup.ts"></script>
 </body>
 </html>
