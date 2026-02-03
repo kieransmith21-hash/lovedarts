@@ -1,0 +1,362 @@
+1. Brand Overview
+
+Brand Name: Love Darts
+Product: Social darts scoring and statistics application
+Theme: Modern rustic pub darts culture
+
+The product should feel:
+
+Warm, social, and authentic
+
+Competitive but friendly
+
+Traditional with modern polish
+
+Avoid anything that feels:
+
+Neon, arcade-like, or flashy
+
+Corporate or sterile
+
+Cartoonish or novelty-driven
+
+2. Brand Personality & Tone
+
+The brand voice is:
+
+Clear and human
+
+Friendly but not jokey
+
+Confident, not salesy
+
+UI copy must be:
+
+Short
+
+Direct
+
+Functional
+
+Avoid:
+
+Buzzwords
+
+Over-explaining
+
+Clever wording that harms clarity
+
+3. Typography (Strict)
+
+Primary and only font: Sansation
+
+Sansation must be used throughout the entire application, including:
+
+Headings
+
+Body text
+
+Buttons
+
+Navigation
+
+Forms
+
+Labels
+
+Stats
+
+Modals
+
+Tooltips
+
+Allowed weights:
+
+Regular
+
+Bold
+
+Rules:
+
+No other fonts may be introduced
+
+No decorative effects (shadows, outlines, gradients)
+
+No novelty, serif, script, or display fonts
+
+Fallback fonts are for technical failure only (e.g. Arial, system-ui)
+
+4. Colour System
+4.1 Core Brand Colour
+
+Primary anchor colour:
+
+#351A0D
+
+All colours used must derive from this system.
+
+4.2 Primary Palette (Tints)
+
+Used for backgrounds, cards, and layout layers:
+
+#351A0D
+
+#4A2F24
+
+#5F463B
+
+#755E54
+
+#8B776E
+
+#A19089
+
+#B8ABA5
+
+#CFC6C2
+
+#E7E2E0
+
+#FFFFFF
+
+Rules:
+
+Dark mode first
+
+White may be used but must not dominate
+
+Maintain strong contrast
+
+4.3 Shades (Depth & Contrast)
+
+Used for borders, shadows, and deep contrast:
+
+#351A0D
+
+#30180C
+
+#2B160B
+
+#261409
+
+#211207
+
+#1D0F06
+
+#180C04
+
+#120803
+
+#0A0401
+
+#000000
+
+Prefer near-black browns over pure black where possible.
+
+4.4 Tones (Muted Neutrals)
+
+Used for secondary text and disabled states:
+
+#351A0D
+
+#3E2419
+
+#462F25
+
+#4F3A31
+
+#57453D
+
+#5F504A
+
+#685C57
+
+#706864
+
+#787472
+
+#808080
+
+Tones must never be used for primary actions.
+
+5. Accent & Harmony Colours (Restricted)
+
+Accent colours are for controlled, minimal use only
+(e.g. selection indicators, highlights, data visualisation).
+
+They must never dominate layouts.
+
+Complementary
+
+#351A0D
+
+#0D2835
+
+Analogous
+
+#351A0D
+
+#350D14
+
+#352E0D
+
+Split Complementary
+
+#351A0D
+
+#0D352E
+
+#0D1435
+
+Triad
+
+#351A0D
+
+#0D351A
+
+#1A0D35
+
+Square
+
+#351A0D
+
+#14350D
+
+#0D2835
+
+#2E0D35
+
+Rectangle
+
+#351A0D
+
+#28350D
+
+#0D2835
+
+#1A0D35
+
+Rules:
+
+Accent colours must stay under 10% visual weight
+
+Never introduce colours outside this system
+
+6. Buttons & Actions (Critical)
+6.1 Primary Buttons
+
+Primary action buttons must be red.
+
+Approved primary button red:
+
+#350D14
+
+Used for:
+
+Start Game
+
+Save
+
+Confirm
+
+Submit
+
+Rules:
+
+Only one primary action per screen where possible
+
+Red must never be used for navigation or passive actions
+
+6.2 Secondary Buttons
+
+Use brown tints or tones
+
+Never red
+
+Must visually defer to primary buttons
+
+6.3 Button States
+
+Hover: subtle darkening or saturation shift
+
+Active: darker shade of same colour
+
+Disabled: muted brown tone, never red
+
+No glow, bounce, or exaggerated animation
+
+7. Layout & UI Design
+
+Principles:
+
+Clean, structured layouts
+
+Strong visual hierarchy
+
+Generous spacing
+
+Solid, tactile-feeling cards
+
+Cards:
+
+Entire card clickable where applicable
+
+Subtle hover and active states
+
+No exaggerated elevation
+
+Buttons:
+
+Weighty and grounded
+
+No pill-style buttons unless explicitly requested
+
+8. Interaction & Motion
+
+Minimal, purpose-driven animation
+
+Smooth transitions only
+
+Motion must provide feedback, not decoration
+
+Avoid:
+
+Bouncy effects
+
+Flashy transitions
+
+Gimmicks
+
+9. Accessibility (Non-Negotiable)
+
+Must meet WCAG contrast requirements
+
+Keyboard navigation supported
+
+If accessibility conflicts with aesthetics, accessibility wins
+
+10. Non-Goals
+
+Love Darts is NOT:
+
+A casino app
+
+A novelty party game
+
+An esports platform
+
+A children’s game
+
+Any design drifting toward these must be rejected.
+
+11. Enforcement Rule
+
+If any user request:
+
+Conflicts with this document
+
+Requires colours, fonts, or styles outside this system
+
+Weakens clarity, accessibility, or brand consistency
+
+You must pause and ask for clarification before proceeding.
