@@ -1,34 +1,36 @@
+Love Darts — Branding Guidelines (Dark Oak Edition)
 1. Brand Overview
 
-Brand Name: Love Darts
-Product: Social darts scoring and statistics application
+Brand: Love Darts
 Theme: Modern rustic pub darts culture
 
 The product should feel:
 
-Warm, social, and authentic
+Warm
 
-Competitive but friendly
+Social
 
-Traditional with modern polish
+Authentic
 
-Avoid anything that feels:
+Solid and tactile
 
-Neon, arcade-like, or flashy
+Avoid:
 
-Corporate or sterile
+Neon
 
-Cartoonish or novelty-driven
+Arcade or casino aesthetics
+
+Corporate sterility
+
+Cartoon or novelty styling
 
 2. Brand Personality & Tone
-
-The brand voice is:
 
 Clear and human
 
 Friendly but not jokey
 
-Confident, not salesy
+Confident, not sales-driven
 
 UI copy must be:
 
@@ -38,37 +40,10 @@ Direct
 
 Functional
 
-Avoid:
-
-Buzzwords
-
-Over-explaining
-
-Clever wording that harms clarity
-
 3. Typography (Strict)
 
-Primary and only font: Sansation
-
-Sansation must be used throughout the entire application, including:
-
-Headings
-
-Body text
-
-Buttons
-
-Navigation
-
-Forms
-
-Labels
-
-Stats
-
-Modals
-
-Tooltips
+Font: Sansation
+Used everywhere. No exceptions.
 
 Allowed weights:
 
@@ -76,287 +51,88 @@ Regular
 
 Bold
 
-Rules:
-
-No other fonts may be introduced
-
-No decorative effects (shadows, outlines, gradients)
-
-No novelty, serif, script, or display fonts
-
-Fallback fonts are for technical failure only (e.g. Arial, system-ui)
+No decorative effects. No font substitutions.
 
 4. Colour System
-4.1 Core Brand Colour
+4.1 Primary Anchor (Dark Oak)
+#3B2416
 
-Primary anchor colour:
+4.2 Oak Tints (Structure & Layout)
+#3B2416
+#4A2E1D
+#5A3A27
+#6B4A36
+#7C5B46
+#8E6E59
+#A0806C
+#B39380
+#C6A796
 
-#351A0D
+4.3 Oak Shadows (Depth)
+#2F1C11
+#28170E
+#21130B
+#1A0F08
+#130A05
 
-All colours used must derive from this system.
+5. Background Treatment
 
-4.2 Primary Palette (Tints)
+Background should simulate wood grain
 
-Used for backgrounds, cards, and layout layers:
+Subtle, low-contrast texture
 
-#351A0D
+Never overpower text
 
-#4A2F24
+No glossy finishes
 
-#5F463B
+No photographic realism unless explicitly approved
 
-#755E54
+6. Buttons & Actions
+Primary Buttons
 
-#8B776E
+Colour:
 
-#A19089
+#5A1E24
 
-#B8ABA5
 
-#CFC6C2
+Use sparingly for primary actions only.
 
-#E7E2E0
+Secondary Buttons
 
-#FFFFFF
+Oak tones only
 
-Rules:
+Logout is secondary
 
-Dark mode first
+Must never use red
 
-White may be used but must not dominate
-
-Maintain strong contrast
-
-4.3 Shades (Depth & Contrast)
-
-Used for borders, shadows, and deep contrast:
-
-#351A0D
-
-#30180C
-
-#2B160B
-
-#261409
-
-#211207
-
-#1D0F06
-
-#180C04
-
-#120803
-
-#0A0401
-
-#000000
-
-Prefer near-black browns over pure black where possible.
-
-4.4 Tones (Muted Neutrals)
-
-Used for secondary text and disabled states:
-
-#351A0D
-
-#3E2419
-
-#462F25
-
-#4F3A31
-
-#57453D
-
-#5F504A
-
-#685C57
-
-#706864
-
-#787472
-
-#808080
-
-Tones must never be used for primary actions.
-
-5. Accent & Harmony Colours (Restricted)
-
-Accent colours are for controlled, minimal use only
-(e.g. selection indicators, highlights, data visualisation).
-
-They must never dominate layouts.
-
-Complementary
-
-#351A0D
-
-#0D2835
-
-Analogous
-
-#351A0D
-
-#350D14
-
-#352E0D
-
-Split Complementary
-
-#351A0D
-
-#0D352E
-
-#0D1435
-
-Triad
-
-#351A0D
-
-#0D351A
-
-#1A0D35
-
-Square
-
-#351A0D
-
-#14350D
-
-#0D2835
-
-#2E0D35
-
-Rectangle
-
-#351A0D
-
-#28350D
-
-#0D2835
-
-#1A0D35
-
-Rules:
-
-Accent colours must stay under 10% visual weight
-
-Never introduce colours outside this system
-
-6. Buttons & Actions (Critical)
-6.1 Primary Buttons
-
-Primary action buttons must be red.
-
-Approved primary button red:
-
-#350D14
-
-Used for:
-
-Start Game
-
-Save
-
-Confirm
-
-Submit
-
-Rules:
-
-Only one primary action per screen where possible
-
-Red must never be used for navigation or passive actions
-
-6.2 Secondary Buttons
-
-Use brown tints or tones
-
-Never red
-
-Must visually defer to primary buttons
-
-6.3 Button States
-
-Hover: subtle darkening or saturation shift
-
-Active: darker shade of same colour
-
-Disabled: muted brown tone, never red
-
-No glow, bounce, or exaggerated animation
-
-7. Layout & UI Design
-
-Principles:
+7. Layout & UI Feel
 
 Clean, structured layouts
 
-Strong visual hierarchy
-
 Generous spacing
 
-Solid, tactile-feeling cards
+Cards feel solid and grounded
 
-Cards:
-
-Entire card clickable where applicable
-
-Subtle hover and active states
-
-No exaggerated elevation
-
-Buttons:
-
-Weighty and grounded
-
-No pill-style buttons unless explicitly requested
+Minimal elevation
 
 8. Interaction & Motion
 
-Minimal, purpose-driven animation
+Purpose-driven only
 
-Smooth transitions only
+No bounce
 
-Motion must provide feedback, not decoration
+No gimmicks
 
-Avoid:
+Smooth, restrained transitions
 
-Bouncy effects
+9. Accessibility
 
-Flashy transitions
+WCAG contrast compliance
 
-Gimmicks
+Keyboard navigation required
 
-9. Accessibility (Non-Negotiable)
+Accessibility always wins over aesthetics
 
-Must meet WCAG contrast requirements
+10. Enforcement Rule
 
-Keyboard navigation supported
-
-If accessibility conflicts with aesthetics, accessibility wins
-
-10. Non-Goals
-
-Love Darts is NOT:
-
-A casino app
-
-A novelty party game
-
-An esports platform
-
-A children’s game
-
-Any design drifting toward these must be rejected.
-
-11. Enforcement Rule
-
-If any user request:
-
-Conflicts with this document
-
-Requires colours, fonts, or styles outside this system
-
-Weakens clarity, accessibility, or brand consistency
-
-You must pause and ask for clarification before proceeding.
+Any request that violates this document must pause for clarification before implementation.
